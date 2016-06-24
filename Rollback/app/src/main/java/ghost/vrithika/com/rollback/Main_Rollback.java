@@ -31,7 +31,7 @@ public class Main_Rollback extends AppCompatActivity {
     static int level, score;
     private static Stack<Integer> stack = new Stack<>();
     static List<Image> imageList = new LinkedList<>();
-    CountDownTimer timer;
+    CountDownTimer timer = null;
     //private Bitmap imageBitmap = null;
     //private Bundle_view bundles;
     //private RelativeLayout container;
@@ -169,7 +169,8 @@ public class Main_Rollback extends AppCompatActivity {
                             a[i]="w";
                         }
                         display(a);
-                        timer.cancel();
+                        if(timer!=null)
+                            timer.cancel();
                     }
                 }
         );

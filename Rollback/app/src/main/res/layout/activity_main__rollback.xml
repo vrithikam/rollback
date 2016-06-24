@@ -96,63 +96,72 @@
         android:id="@+id/imageView1"
         android:layout_marginTop="46dp"
         android:layout_below="@+id/textView7"
-        android:layout_alignEnd="@+id/button2" />
+        android:layout_alignEnd="@+id/button2"
+        android:alpha="0" />
 
     <ImageView
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:id="@+id/imageView2"
         android:layout_below="@+id/imageView1"
-        android:layout_alignStart="@+id/imageView1" />
+        android:layout_alignStart="@+id/imageView1"
+        android:alpha="0" />
 
     <ImageView
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:id="@+id/imageView3"
         android:layout_below="@+id/imageView2"
-        android:layout_alignStart="@+id/imageView2" />
+        android:layout_alignStart="@+id/imageView2"
+        android:alpha="0" />
 
     <ImageView
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:id="@+id/imageView4"
         android:layout_above="@+id/imageView2"
-        android:layout_marginLeft="130dp"/>
+        android:layout_marginLeft="130dp"
+        android:alpha="0" />
 
     <ImageView
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:id="@+id/imageView5"
         android:layout_alignTop="@+id/imageView2"
-        android:layout_marginLeft="130dp"/>
+        android:layout_marginLeft="130dp"
+        android:alpha="0" />
 
     <ImageView
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:id="@+id/imageView6"
         android:layout_below="@+id/imageView5"
-        android:layout_marginLeft="130dp" />
+        android:layout_marginLeft="130dp"
+        android:alpha="0" />
 
     <ImageView
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:id="@+id/imageView7"
         android:layout_alignTop="@+id/imageView4"
-        android:layout_marginLeft="210dp" />
+        android:layout_marginLeft="210dp"
+        android:alpha="0" />
 
     <ImageView
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:id="@+id/imageView8"
         android:layout_alignTop="@+id/imageView5"
-        android:layout_alignStart="@+id/imageView7" />
+        android:layout_alignStart="@+id/imageView7"
+        android:alpha="0" />
 
     <ImageView
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:id="@+id/imageView9"
         android:layout_below="@+id/imageView8"
-        android:layout_alignStart="@+id/imageView8" />
+        android:layout_alignStart="@+id/imageView8"
+        android:alpha="0" />
 
     <TextView
         android:layout_width="wrap_content"
